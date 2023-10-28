@@ -1,0 +1,58 @@
+Palestine Body Count
+Human Cost of Israel-Palestine Conflict (2000 - 2021)
+
+About Dataset
+Context
+This is an attempt to document the atrocities and human cost in Israel-Palestine conflict.
+
+Content
+The dataset contains injuries and fatalities data from both sides from 2000 - 2021. It has year, month, number of people killed and injured from Israel and Palestine. There are 111,475 people injured and 10,000 killed from Palestine and another 5,160 people injured and 1,275 killed from Israel
+
+Inspiration
+Use your data science skills to calculate the human cost, statistical value of life and the amount lost in missed work hours, lives lost due to this conflict
+
+Reference
+Kaggle
+
+
+Total values in Year column are : 249
+Total values in Month column are : 249
+Total values in Palestinians Injuries column are : 196
+Total values in Israelis Injuries column are : 133
+Total values in Palestinians Killed column are : 250
+Total values in Israelis Killed column are : 250
+Total Missing Values in Year column are: 2
+Total Missing Values in Month column are: 2
+Total Missing Values in Palestinians Injuries column are: 55
+Total Missing Values in Israelis Injuries column are: 118
+Total Missing Values in Palestinians Killed column are: 1
+Total Missing Values in Israelis Killed column are: 1
+Now we completely Removed Index 249 and 250 which has Null values in year and Month columns.
+Total Uniuqe Values in Year column are: 22
+Uniuqe Values in Year column are: [2000. 2001. 2002. 2003. 2004. 2005. 2006. 2007. 2008. 2009. 2010. 2011.
+ 2012. 2013. 2014. 2015. 2016. 2017. 2018. 2019. 2020. 2021.]
+ 2013. Total Uniuqe Values in Month column are: 12
+Uniuqe Values in Month column are: ['December' 'November' 'October' 'September' 'August' 'July' 'June' 'May'
+ 'April' 'March' 'February' 'January']
+
+ he highest death toll ever in Palistine occurred in July 2014 when 1590 people were killed in attacks.
+The highest death toll ever in Israel occurred in March 2002 when 122 people were killed in attacks.
+The highest Injuries toll ever in Palistine occurred in Auguest 2014 when 13735 people were Injured in attacks.
+The highest Injuries toll ever in Israel occurred in Auguest 2014 when 2375 people were Injured in attacks.
+
+The avergae kills per month in Palestine was: 40
+The avergae kills per month in Israel was: 5
+
+The avergae Injuries per month in Palestine was: 577
+The avergae Injuries per month in Israel was: 27
+
+
+Palestinians Injuries	Israelis Injuries	Palestinians Killed	Israelis Killed
+count	249.000000	249.000000	249.000000	249.000000
+mean	577.457831	27.891566	40.160643	5.120482
+std	1446.361703	148.982139	129.148851	11.653323
+min	26.000000	0.000000	0.000000	0.000000
+25%	152.000000	14.000000	4.000000	0.000000
+50%	286.000000	15.000000	12.000000	1.000000
+75%	577.000000	15.000000	37.000000	5.000000
+max	13735.000000	2347.000000	1590.000000	122.000000
